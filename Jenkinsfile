@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('First'){
       steps{
-        sh 'node -v'
+        sh('echo this is main branch')
       }
     }
   }
