@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('First'){
       steps{
-        echo 'Kishor Kumar'
+        sh 'node -v'
       }
     }
   }
