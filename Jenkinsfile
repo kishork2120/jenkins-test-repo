@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('First'){
       steps{
-        sh 'printenv'
+        sh 'cat index.html'
       }
     }
   }
