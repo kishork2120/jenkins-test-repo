@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('First'){
       steps{
-        sh('echo this is main branch')
+        sh 'printenv'
       }
     }
   }
